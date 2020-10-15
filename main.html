@@ -1,17 +1,36 @@
-<a href="https://colorlib.com/wp/templates/"><img src="https://colorlib.com/wp/wp-content/uploads/sites/2/colorlib-push-logo.png" alt="Colorlib logo"></a>
-<h1 style="text-align:center;">Thank you for using our template!</h1>
-<p style="text-align:center;">For more awesome templates please visit <strong><a href="https://colorlib.com/wp/templates/">Colorlib</a></strong>.</p>
-<br>
-<p style="text-align:center; color:red;"><strong>Copyright information for the template can't be altered/removed unless you purchase a license.</strong>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
 
-<p style="text-align:center;"><strong>Removing copyright information without the license will result in suspension of your hosting and/or domain name(s).</strong>
+	<style type="text/css">
+		html,body{
+			height: 100%;
+			width: 100%;
+		}
+		#home-background{
+			min-width: 100%;
+			min-height: 100%;
+		}
+	</style>
+</head>
+<body>
+<div id="home-background"></div>
 
-<p style="text-align:center;"><strong>More information about the license is available <a href="https://colorlib.com/wp/licence/">here</a></strong>.</p>
 
-<style>
-img {
-  margin: 0 auto;
-  display: block;
-  margin-top: 20%;
-}
-</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+<script>
+VANTA.BIRDS({
+  el: "#home-background",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00
+})
+</script>
+</body>
+</html>

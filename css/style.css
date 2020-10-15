@@ -1780,7 +1780,7 @@ h1, h2, h3, h4, h5,
   text-transform: uppercase; }
 
 .section-title {
-  color: #000;
+  color: #1b00ff;
   font-size: 40px;
   font-weight: 900; }
   @media (max-width: 991.98px) {
@@ -2093,3 +2093,12 @@ h1, h2, h3, h4, h5,
       box-shadow: none; }
 
 /*# sourceMappingURL=pricing-plan.css.map */
+
+
+/*-------------Own CSS----------------*/
+.clr{
+  color: #001a9c8c !important ;
+}
+.clr1{
+  color: #2b22ad !important;
+}
