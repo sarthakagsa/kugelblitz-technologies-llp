@@ -1,36 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-
-	<style type="text/css">
-		html,body{
-			height: 100%;
-			width: 100%;
-		}
-		#home-background{
-			min-width: 100%;
-			min-height: 100%;
-		}
-	</style>
+<meta charset=utf-8 />
+<title>Test</title>
+<style>
+  #foo {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    border-radius: 15px;
+  }
+</style>
 </head>
 <body>
-<div id="home-background"></div>
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
-<script>
-VANTA.BIRDS({
-  el: "#home-background",
-  mouseControls: true,
-  touchControls: true,
-  gyroControls: false,
-  minHeight: 200.00,
-  minWidth: 200.00,
-  scale: 1.00,
-  scaleMobile: 1.00
-})
-</script>
+  <div id="foo">
+<button onclick="togglePopup()">Show Popup</button></div>
 </body>
 </html>
